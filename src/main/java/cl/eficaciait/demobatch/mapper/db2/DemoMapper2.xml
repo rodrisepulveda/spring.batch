@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cl.eficaciait.demobatch.mapper.db2.DemoMapper2">
+
+	<insert id="insertarDb2" parameterType="cl.eficaciait.demobatch.to.DatoTo">
+
+		insert into tabla2
+		values(#{campo1}, #{campo2})
+
+	</insert>
+
+</mapper>
